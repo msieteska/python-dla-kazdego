@@ -2,7 +2,7 @@
 print("Mam na myśli pewną liczbę: ")
 print("Spróbuj zgadnąć... ale masz tylko 3 próby!")
 import random
-liczba_wylosowana=random.randrange(0,3)
+liczba_wylosowana=random.randrange(0,100)
 for i in range(3):
     liczba=int(input("Twoja liczba: "))
     if liczba <liczba_wylosowana:
